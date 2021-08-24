@@ -1,0 +1,19 @@
+//Reverse number
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+	int r =1234,sum=0;
+	while(r!=0)
+	{
+	    int rem = r%10;
+	    sum = (sum*10)+rem;
+	      r= r/10;
+	   	}
+	System.out.println(sum);
+		
+		
+		
+	}
+}
